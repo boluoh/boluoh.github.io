@@ -419,6 +419,9 @@
           </div>
           
   
+    
+    <div class="comments" id="gitalk-container"></div>
+  
 
 
 
@@ -439,7 +442,7 @@
 
       
 
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="https://music.163.com/outchain/player?type=2&id=440317256&auto=0&height=32"></iframe>
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=2081498&auto=0&height=32"></iframe>
 
       
 
@@ -1057,6 +1060,37 @@ window.addEventListener("message", function(e) {
 
 
 
+
+
+  
+    
+
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '8d8389a8aba988a5aa73',
+    clientSecret: 'd2ccca91e11359a908e5b65a705141487373909e',
+    repo: 'blog-gitalk',
+    owner: 'boluoh',
+    admin: ['boluoh'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
 
 
   

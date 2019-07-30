@@ -97,7 +97,7 @@
   <meta name="description" content="personal blog">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Xyh&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/tags/java/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/java-spring/index.html">
 <meta property="og:site_name" content="Xyh&#39;s Blog">
 <meta property="og:description" content="personal blog">
 <meta property="og:locale" content="zh-CN">
@@ -113,7 +113,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/tags/java/">
+  <link rel="canonical" href="http://yoursite.com/tags/java-spring/">
 
 
 
@@ -124,7 +124,7 @@
 </script>
 
   
-  <title>标签: java | Xyh's Blog</title>
+  <title>标签: java,spring | Xyh's Blog</title>
   
 
 
@@ -378,7 +378,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>java<small>标签</small>
+        <h1>java,spring<small>标签</small>
         </h1>
       </div>
 
@@ -440,7 +440,7 @@
 
       
 
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=2081498&auto=0&height=32"></iframe>
+     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=37720645&auto=0&height=32"></iframe>
 
       
 
@@ -1068,6 +1068,32 @@ window.addEventListener("message", function(e) {
 
 
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'EReuUKbgKBOvJc4sJvL7x5Bw-MdYXbMMI',
+    appKey: 'XRNAQjkF7e3gbDtOuHJ03APA',
+    placeholder: 'ヾﾉ≧∀≦)o 来呀！快活呀！~',
+    avatar: 'retro',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
   
 

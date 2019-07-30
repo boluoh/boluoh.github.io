@@ -379,10 +379,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">aboutimport 'gitalk/dist/gitalk.css'
-import Gitalk from 'gitalk'
-
-
+<h1 class="post-title" itemprop="name headline">about
 
 </h1>
 
@@ -421,6 +418,9 @@ import Gitalk from 'gitalk'
 
           </div>
           
+  
+    
+    <div class="comments" id="gitalk-container"></div>
   
 
 
@@ -1060,6 +1060,37 @@ window.addEventListener("message", function(e) {
 
 
 
+
+
+  
+    
+
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '8d8389a8aba988a5aa73',
+    clientSecret: 'd2ccca91e11359a908e5b65a705141487373909e',
+    repo: 'blog-gitalk',
+    owner: 'boluoh',
+    admin: ['boluoh'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
 
 
   

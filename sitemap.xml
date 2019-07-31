@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-07-31T13:19:19.768Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-07-31T13:19:04.018Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/31/Spring-MVC/</loc>
     
     <lastmod>2019-07-31T12:51:12.659Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://yoursite.com/2019/07/30/Spring/</loc>
     
     <lastmod>2019-07-31T11:49:59.733Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2019-07-30T13:32:09.755Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2019-07-30T13:31:53.268Z</lastmod>
     
   </url>
   

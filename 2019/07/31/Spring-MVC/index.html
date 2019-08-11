@@ -102,14 +102,14 @@
 <meta property="og:site_name" content="Xyh&#39;s Blog">
 <meta property="og:description" content="简介Spring MVC是一种基于Java的实现了Web MVC设计模式的请求驱动类型的轻量级Web框架 ，是Spring系开源项目中的一个，和IoC配合使用。通过策略接口，Spring框架是高度可配置的，而且支持多种视图技术。Spring分离了控制器、模型对象、分派器以及处理程序对象的角色，这种分离让他们更容易进行定制。Spring MVC解决的问题如下：  将web页面的请求传给服务器；">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://boluoh.top/images/4025980733-5b8df75b93328.png">
-<meta property="og:image" content="http://boluoh.top/images/7896890-403a273b08fec826.jpg">
-<meta property="og:image" content="http://boluoh.top/images/7896890-a25782fb05f315de.jpg">
-<meta property="og:updated_time" content="2019-08-01T02:50:14.786Z">
+<meta property="og:image" content="http://boluoh.top/assets/4025980733-5b8df75b93328.png">
+<meta property="og:image" content="http://boluoh.top/assets/7896890-403a273b08fec826.jpg">
+<meta property="og:image" content="http://boluoh.top/assets/7896890-a25782fb05f315de.jpg">
+<meta property="og:updated_time" content="2019-08-01T07:18:20.813Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spring MVC">
 <meta name="twitter:description" content="简介Spring MVC是一种基于Java的实现了Web MVC设计模式的请求驱动类型的轻量级Web框架 ，是Spring系开源项目中的一个，和IoC配合使用。通过策略接口，Spring框架是高度可配置的，而且支持多种视图技术。Spring分离了控制器、模型对象、分派器以及处理程序对象的角色，这种分离让他们更容易进行定制。Spring MVC解决的问题如下：  将web页面的请求传给服务器；">
-<meta name="twitter:image" content="http://boluoh.top/images/4025980733-5b8df75b93328.png">
+<meta name="twitter:image" content="http://boluoh.top/assets/4025980733-5b8df75b93328.png">
 
 
 
@@ -427,7 +427,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-08-01 10:50:14" itemprop="dateModified" datetime="2019-08-01T10:50:14+08:00">2019-08-01</time>
+                <time title="修改时间：2019-08-01 15:18:20" itemprop="dateModified" datetime="2019-08-01T15:18:20+08:00">2019-08-01</time>
               </span>
             
           
@@ -523,10 +523,10 @@
 <li>返回处理结果数据并跳转至响应页面；</li>
 </ul>
 <p>通过下面这样图可以看到Spring MVC在Spring全家桶中的位置：</p>
-<p><img src="/images/4025980733-5b8df75b93328.png" alt></p>
+<p><img src="/assets/4025980733-5b8df75b93328.png" alt></p>
 <hr>
 <h2 id="MVC-设计概述"><a href="#MVC-设计概述" class="headerlink" title="MVC 设计概述"></a>MVC 设计概述</h2><p>早期的 MVC 模型<strong>（Model2）</strong>就像下图这样：</p>
-<p><img src="/images/7896890-403a273b08fec826.jpg" alt></p>
+<p><img src="/assets/7896890-403a273b08fec826.jpg" alt></p>
 <p>首先用户的请求会到达 Servlet，然后根据请求调用相应的 Java Bean，并把所有的显示结果交给 JSP 去完成，这样的模式我们就称为 MVC 模式。</p>
 <ul>
 <li><strong>M 代表 模型（Model）</strong><br>模型是什么呢？ 模型就是数据，就是 dao,bean</li>
@@ -534,7 +534,7 @@
 <li><strong>C 代表 控制器（controller)</strong><br>控制器是什么？ 控制器的作用就是把不同的数据(Model)，显示在不同的视图(View)上，Servlet 扮演的就是这样的角色。</li>
 </ul>
 <h4 id="Spring-MVC-的架构"><a href="#Spring-MVC-的架构" class="headerlink" title="Spring MVC 的架构"></a>Spring MVC 的架构</h4><p>为解决持久层中一直未处理好的数据库事务的编程，又为了迎合 NoSQL 的强势崛起，Spring MVC 给出了方案：</p>
-<p><img src="/images/7896890-a25782fb05f315de.jpg" alt></p>
+<p><img src="/assets/7896890-a25782fb05f315de.jpg" alt></p>
 <p><strong>传统的模型层被拆分为了业务层(Service)和数据访问层（DAO,Data Access Object）。</strong> 在 Service 下可以通过 Spring 的声明式事务操作数据访问层，而在业务层上还允许我们访问 NoSQL ，这样就能够满足异军突起的 NoSQL 的使用了，它可以大大提高互联网系统的性能。</p>
 <ul>
 <li><strong>特点：</strong><ol>
@@ -735,6 +735,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2019/08/11/java基础知识/" rel="prev" title="java基础知识">
+                java基础知识 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -777,7 +781,7 @@
 
       
 
-     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=37720645&auto=0&height=32"></iframe>
+
 
       
         <ul class="sidebar-nav motion-element">
@@ -808,7 +812,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -827,7 +831,9 @@
         
           
         
-        <span class="site-state-item-count">1</span>
+          
+        
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -848,7 +854,9 @@
         
           
         
-        <span class="site-state-item-count">2</span>
+          
+        
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
@@ -950,7 +958,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">25k</span>
+    <span title="站点总字数">36k</span>
   
 
   
@@ -961,7 +969,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">22 分钟</span>
+    <span title="站点阅读时长">33 分钟</span>
   
 </div>
 
